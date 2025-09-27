@@ -39,3 +39,17 @@ body {
 .cv-button:hover {
   background: #005f87;
 }
+
+.contact {
+  margin-top: 2rem;
+  font-size: 1rem;
+}
+
+.contact a {
+  color: #0077b6;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
