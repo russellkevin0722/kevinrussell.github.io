@@ -1,55 +1,16 @@
-body {
-  font-family: Arial, sans-serif;
-  background: #f9f9f9;
-  color: #333;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin: 0;
+.name {
+  color: #8B2332; /* swap for any hex you like — e.g. Emory navy: #012169 */
 }
 
-.container {
-  text-align: center;
-  background: white;
-  padding: 2rem;
-  border-radius: 12px;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-  max-width: 500px;
+.subtitle {
+  font-style: italic;
+  color: #555;
+  margin-top: -10px;
+  margin-bottom: 24px;
 }
 
-.headshot {
-  width: 150px;
-  height: 150px;
-  object-fit: cover;
-  border-radius: 50%;
-  margin-bottom: 1rem;
-}
-
-.cv-button {
-  display: inline-block;
-  margin-top: 1rem;
-  padding: 0.6rem 1.2rem;
-  background: #0077b6;
-  color: white;
-  text-decoration: none;
-  border-radius: 6px;
-}
-
-.cv-button:hover {
-  background: #005f87;
-}
-
-.contact {
-  margin-top: 2rem;
-  font-size: 1rem;
-}
-
-.contact a {
-  color: #0077b6;
-  text-decoration: none;
-}
-
-.contact a:hover {
-  text-decoration: underline;
+.bio-block p {
+  margin-bottom: 16px;
+  line-height: 1.6;
+  text-align: left;
 }
