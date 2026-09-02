@@ -14,3 +14,17 @@
   line-height: 1.6;
   text-align: left;
 }
+
+.headshot {
+  width: 160px;
+  height: 160px;
+  max-width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 20px;
+}
+
+h1.name {
+  color: #8B2332 !important; /* swap for any hex you like */
+}
